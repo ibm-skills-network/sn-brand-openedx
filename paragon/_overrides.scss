@@ -1,2 +1,32 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+.text-accent-a {
+    color: #f39c12;
+}
+
+#register-user, #sign-in {
+    background-color: #f39c12;
+    border: 1px solid #f39c12;
+}
+
+.content {
+    font-family: 'Montserrat', 'Segoe UI', sans-serif;
+    @include media-breakpoint-up('xl') {
+      display: flex;
+      justify-content: center;
+      width: 50vw;
+      margin-top: 4rem;
+    }
+  }
+
+.large-screen-svg-primary {
+    fill: #11192b;
+}
+
+.bg-primary-400 {
+    background-color: #11192b;
+}
+
+// TPA border gray
+// #e3e4e8

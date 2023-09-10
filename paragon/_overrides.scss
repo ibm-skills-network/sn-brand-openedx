@@ -2,12 +2,12 @@
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
 .text-accent-a {
-    color: #f39c12;
+    color: #f39c12 !important;
 }
 
 #register-user, #sign-in {
-    background-color: #f39c12;
-    border: 1px solid #f39c12;
+    background-color: #f39c12 !important;
+    border: 1px solid #f39c12 !important;
 }
 
 .content {
@@ -27,6 +27,3 @@
 .bg-primary-400 {
     background-color: #11192b !important;
 }
-
-// TPA border gray
-// #e3e4e8

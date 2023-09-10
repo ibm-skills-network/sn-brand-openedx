@@ -1,6 +1,9 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
+// Login & Registration (authn)
+// http://apps.local.skills.network/authn/register
+// http://apps.local.skills.network/authn/login
 .text-accent-a {
     color: #f39c12 !important;
 }
@@ -27,3 +30,16 @@
 .bg-primary-400 {
     background-color: #11192b !important;
 }
+
+// Account
+// http://apps.local.skills.network/account
+.page__account-settings {
+    max-width: 1204px !important;  // Exact width in the edx.org configuration
+}
+
+@media (min-width: 768px) {
+    .col-md-2 {
+      flex: 0 0 16.66666667% !important;
+      max-width: 16.66666667% !important;
+    }
+  }

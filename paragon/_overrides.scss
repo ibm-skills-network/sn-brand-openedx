@@ -4,6 +4,13 @@
 // Login & Registration (authn)
 // http://apps.local.skills.network/authn/register
 // http://apps.local.skills.network/authn/login
+.logo.position-absolute {
+  width: 9.5rem !important;
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 25px;
+}
+
 .text-accent-a {
     color: #f39c12 !important;
 }
